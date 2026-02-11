@@ -1,0 +1,27 @@
+[character]
+success_symbol = "✅ "
+error_symbol = "❌ "
+
+[git_branch]
+symbol = "🌿 "
+style = "bold green"
+
+[git_status]
+style = "bold yellow"
+disabled = false
+
+[directory]
+truncation_length = 3
+truncation_symbol = "…/"
+style = "bold blue"
+
+[time]
+format = "🕒 {$T}"
+#time_format = "%H:%M:%S"
+style = "italic grey"
+disabled = true
+
+[cmd_duration]
+min_time = 1000
+format = "⏱️ $duration"
+style = "bold magenta"
